@@ -39,6 +39,25 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  //Change text every second
+  var changeText = function() {
+    var words = ["Developer","Designer", "Techie"];
+    var counter = 0;
+    var elem = $("#role-fn");
+    var inst = setInterval(change, 1000);
+
+    function change() {
+      elem.text(words[counter]);
+      counter++;
+      if (counter >= words.length) {
+        counter = 0;
+        //clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+      }
+    }
+  };
+
+  changeText();
+
   // Scroll reveal calls
   window.sr = ScrollReveal();
   sr.reveal('.sr-icons', {
