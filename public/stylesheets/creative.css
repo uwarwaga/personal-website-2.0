@@ -80,6 +80,10 @@ img::-moz-selection {
   background: 0 0
 }
 
+strong{
+  color: #22181c;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, .1);
   background-color: #fff;
@@ -118,6 +122,11 @@ img::-moz-selection {
 
 #about-img {
   padding-top: 15px
+}
+
+#role-fn {
+  font-weight: bolder;
+  color: #22181c;
 }
 
 @media (min-width:992px) {
