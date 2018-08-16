@@ -41,10 +41,10 @@
 
   //Change text every second
   var changeText = function() {
-    var words = ["Developer","Designer", "Techie"];
+    var words = ["Developer", "Designer", "Techie"];
     var counter = 0;
     var elem = $("#role-fn");
-    var inst = setInterval(change, 1000);
+    var inst = setInterval(change, 950);
 
     function change() {
       elem.text(words[counter]);
