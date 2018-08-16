@@ -20,13 +20,18 @@ hr {
   max-width: 50px;
   border-width: 3px;
   border-color: #f0cea0;
-  /* float: left; */
-  margin-left: 0;
-  margin-right: 0;
 }
 
 hr.light {
   border-color: #fff
+}
+
+hr#uline-header{
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #22181c;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 a {
