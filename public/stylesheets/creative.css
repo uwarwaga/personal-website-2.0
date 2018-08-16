@@ -26,7 +26,7 @@ hr.light {
   border-color: #fff
 }
 
-hr#uline-header{
+hr#uline-header {
   max-width: 50px;
   border-width: 3px;
   border-color: #22181c;
@@ -80,7 +80,7 @@ img::-moz-selection {
   background: 0 0
 }
 
-strong{
+strong {
   color: #22181c;
 }
 
