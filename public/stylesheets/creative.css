@@ -4,7 +4,7 @@
 }
 
 a, a:hover {
-  color: #f0cea0
+  color: #fff
 }
 
 body, html {
@@ -120,7 +120,7 @@ strong {
 }
 
 #about-img {
-  padding-top: 15px
+  padding-top: 1em;
 }
 
 #role-description {
@@ -183,6 +183,10 @@ strong {
   .btn-primary {
     background-color: #22181c;
     border-color: #22181c;
+  }
+  div.container.bio {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
