@@ -26,10 +26,9 @@ hr.light {
   border-color: #fff
 }
 
-hr#uline-header {
+hr.uline-header {
   max-width: 50px;
   border-width: 3px;
-  /* border-color: #22181c; */
   margin-left: 0;
   margin-right: 0;
 }
@@ -47,7 +46,7 @@ a {
 }
 
 .text-faded {
-  color: rgba(240, 206, 160, 1)
+  color: rgba(34, 24, 28, 1)
 }
 
 section {
@@ -144,7 +143,7 @@ strong {
     background-color: transparent
   }
   #mainNav .navbar-brand {
-    color: rgba(240, 206, 160, 1)
+    color: rgba(255, 255, 255, 1)
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fff
@@ -153,7 +152,7 @@ strong {
     padding: .5rem 1rem
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: rgba(240, 206, 160, 1)
+    color: rgba(255, 255, 255, 1)
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #fff
@@ -172,15 +171,18 @@ strong {
     color: #f0cea0
   }
   strong {
+    color: #fff;
+  }
+  #role-description {
     color: #f0cea0;
   }
   #role-fn {
     font-weight: bolder;
-    color: #f0cea0;
+    color: #fff;
   }
   .btn-primary {
-    background-color: #000;
-    border-color: #000;
+    background-color: #22181c;
+    border-color: #22181c;
   }
 }
 
