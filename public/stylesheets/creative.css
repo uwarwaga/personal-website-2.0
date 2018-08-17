@@ -29,7 +29,7 @@ hr.light {
 hr#uline-header {
   max-width: 50px;
   border-width: 3px;
-  border-color: #22181c;
+  /* border-color: #22181c; */
   margin-left: 0;
   margin-right: 0;
 }
@@ -47,7 +47,7 @@ a {
 }
 
 .text-faded {
-  color: rgba(34, 24, 28, 1)
+  color: rgba(240, 206, 160, 1)
 }
 
 section {
@@ -81,7 +81,7 @@ img::-moz-selection {
 }
 
 strong {
-  color: #22181c;
+  color: #f0cea0;
 }
 
 #mainNav {
@@ -124,9 +124,18 @@ strong {
   padding-top: 15px
 }
 
+#role-description {
+  color: #fff;
+}
+
 #role-fn {
   font-weight: bolder;
-  color: #22181c;
+  color: #f0cea0;
+}
+
+.btn-primary {
+  background-color: #f0cea0;
+  border-color: #f0cea0
 }
 
 @media (min-width:992px) {
@@ -135,7 +144,7 @@ strong {
     background-color: transparent
   }
   #mainNav .navbar-brand {
-    color: rgba(34, 24, 28, 1)
+    color: rgba(240, 206, 160, 1)
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fff
@@ -144,7 +153,7 @@ strong {
     padding: .5rem 1rem
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
-    color: rgba(34, 24, 28, 1)
+    color: rgba(240, 206, 160, 1)
   }
   #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #fff
@@ -161,6 +170,17 @@ strong {
   }
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #f0cea0
+  }
+  strong {
+    color: #f0cea0;
+  }
+  #role-fn {
+    font-weight: bolder;
+    color: #f0cea0;
+  }
+  .btn-primary {
+    background-color: #000;
+    border-color: #000;
   }
 }
 
@@ -301,11 +321,6 @@ header.masthead p {
 
 .btn-xl {
   padding: 1rem 2rem
-}
-
-.btn-primary {
-  background-color: #f0cea0;
-  border-color: #f0cea0
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
