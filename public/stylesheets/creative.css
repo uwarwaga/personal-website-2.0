@@ -38,11 +38,23 @@ a {
 }
 
 .bg-primary {
-  background-color: #f0cea0 !important
+  background-color: rgba(240, 206, 160,1) !important
+}
+
+.bg-secondary {
+  background-color: rgba(240, 206, 160,.1) !important
+}
+
+.bg-tertiary {
+  background-color: rgba(240, 206, 160,.3) !important
 }
 
 .bg-dark {
   background-color: #212529 !important
+}
+
+.btn-light {
+  background-color: rgba(240, 206, 160,1) !important
 }
 
 .text-faded {
@@ -137,6 +149,10 @@ strong {
 }
 
 #email {
+  color: #f0cea0;
+}
+
+#resume-text {
   color: #f0cea0;
 }
 
