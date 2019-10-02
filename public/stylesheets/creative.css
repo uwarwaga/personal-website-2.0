@@ -463,5 +463,13 @@ header.masthead p {
   }
 }
 
+/* Beginning of additional CSS created by Aury Bwashi */
+
+.card{
+  width: 80%;
+  margin: 0 0 5% 10%;
+}
+/* End of additional CSS created by Aury Bwashi */
+
 @charset "utf-8";
 /* CSS Document */

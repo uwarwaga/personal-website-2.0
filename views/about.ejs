@@ -1,157 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <% include partials/head %>
+
 <body id="page-top">
 
-  <!-- Navigation -->
-  <% include partials/nav %>
-  <section class="bg-primary" id="about">
-    <div class="container bio">
-      <div class="row">
-        <div class="col-lg-7 text-left">
-          <h2 class="section-heading text-white">Meet Aury!</h2>
-          <hr class="light my-3 uline-header">
-          <% include texts/bio %>
-        </div>
-        <div class="col-lg-5 text-center">
-          <img src="img/about/about.jpg" class="img-fluid" alt="Responsive image" id="about-img">
-        </div>
-      </div>
-    </div>
-  </section>
+	<!-- Navigation -->
+	<% include partials/nav %>
+	<section class="bg-primary" id="about">
+		<div class="container bio">
+			<div class="row">
+				<div class="col-lg-7 text-left">
+					<h2 class="section-heading text-white">Meet Aury!</h2>
+					<hr class="light my-3 uline-header">
+					<% include texts/bio %>
+				</div>
+				<div class="col-lg-5 text-center">
+					<img src="img/about/about.jpg" class="img-fluid" alt="Responsive image" id="about-img">
+				</div>
+			</div>
+		</div>
+	</section>
 
-  <section class="bg-secondary text-white" id="resume">
-  <div class="container text-center">
-    <i class="fa fa-4x fa-file text-primary mb-3 sr-icons"></i>
-    <h2 id="resume-text" class="mb-4">Click below to get a copy of Aury's resume!</h2>
-    <a class="btn btn-light btn-xl sr-button" href="https://s3.amazonaws.com/aurybwashi.com/aury_resume.pdf">Resume</a>
-  </div>
-</section>
+	<section class="bg-secondary text-white" id="resume">
+		<div class="container text-center">
+			<i class="fa fa-4x fa-file text-primary mb-3 sr-icons"></i>
+			<h2 id="resume-text" class="mb-4">Click below to get a copy of Aury's resume!</h2>
+			<a class="btn btn-light btn-xl sr-button"
+				href="https://drive.google.com/file/d/1Nu_tB0D7fZukWNLP5naFhtMBBVk8H7yc/view?usp=sharing">Resume</a>
+		</div>
+	</section>
 
-  <section class="p-0" id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
+	<!-- <section class="bg-secondary p-0" id="portfolio">
+		<div class="container-fluid p-0">
+			<div class="row no-gutters">
+				<div class="col card-col">
+					<div class="card">
+						<img src="img/about/placeholder-img.png" class="img-fluid card-img-top" alt="Card Image Cap" id="card-img">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk
+								of the card's
+								content.</p>
+							<a href="#" class="btn btn-light btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col card-col">
+					<div class="card">
+						<img src="img/about/placeholder-img.png" class="img-fluid card-img-top" alt="Card Image Cap" id="card-img">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk
+								of the card's
+								content.</p>
+							<a href="#" class="btn btn-light btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col card-col">
+					<div class="card">
+						<img src="img/about/placeholder-img.png" class="img-fluid card-img-top" alt="Card Image Cap" id="card-img">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk
+								of the card's
+								content.</p>
+							<a href="#" class="btn btn-light btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<a class="portfolio-box" href="https://newbie-dell.herokuapp.com/">
+						<img class="img-fluid" src="img/portfolio/newbie-dell/newbie.png" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Web App Development
+								</div>
+								<div class="project-name">
+									Newbie
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
 
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="https://newbie-dell.herokuapp.com/">
-          <img class="img-fluid" src="img/portfolio/newbie-dell/newbie.png" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Web App Development
-              </div>
-              <div class="project-name">
-                Newbie
-              </div>
-            </div>
-          </div>
-        </a>
-        </div>
+				<div class="col-lg-4 col-sm-6">
+					<a class="portfolio-box" href="https://github.com/uwarwaga/455_final">
+						<img class="img-fluid" src="img/portfolio/mobile-app/mobile-app-thumbnail.jpg" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Mobile App Development
+								</div>
+								<div class="project-name">
+									WaterReminder
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
 
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="https://github.com/uwarwaga/455_final">
-          <img class="img-fluid" src="img/portfolio/mobile-app/mobile-app-thumbnail.jpg" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Mobile App Development
-              </div>
-              <div class="project-name">
-                WaterReminder
-              </div>
-            </div>
-          </div>
-        </a>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="https://github.com/uwarwaga/quickimm">
-          <img class="img-fluid" src="img/portfolio/quickimm/quickimm.png" alt="">
-          <div class="portfolio-box-caption">
-            <div class="portfolio-box-caption-content">
-              <div class="project-category text-faded">
-                Web App Development
-              </div>
-              <div class="project-name">
-                QuickImm
-              </div>
-            </div>
-          </div>
-        </a>
-        </div>
+				<div class="col-lg-4 col-sm-6">
+					<a class="portfolio-box" href="https://github.com/uwarwaga/quickimm">
+						<img class="img-fluid" src="img/portfolio/quickimm/quickimm.png" alt="">
+						<div class="portfolio-box-caption">
+							<div class="portfolio-box-caption-content">
+								<div class="project-category text-faded">
+									Web App Development
+								</div>
+								<div class="project-name">
+									QuickImm
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
 
 
-      </div>
-    </div>
-  </section>
+			</div>
+		</div>
+	</section> -->
 
-  <section class="bg-tertiary ext-white" id="github">
-  <div class="container text-center">
-    <i class="fa fa-4x fa-github text-primary mb-3 sr-icons"></i>
-    <h2 id="resume-text" class="mb-4">There are more projects on my GitHub page :) </h2>
-    <a class="btn btn-light btn-xl sr-button" href="https://github.com/uwarwaga">GitHub</a>
-  </div>
-</section>
+	<section class="bg-tertiary ext-white" id="github">
+		<div class="container text-center">
+			<i class="fa fa-4x fa-github text-primary mb-3 sr-icons"></i>
+			<h2 id="resume-text" class="mb-4">There are more projects on my GitHub page :) </h2>
+			<a class="btn btn-light btn-xl sr-button" href="https://github.com/uwarwaga">GitHub</a>
+		</div>
+	</section>
 
-  <!-- <section id="timeline">
-    <div class="col-md-12">
-      <div class="main-timeline">
-        <div class="timeline">
-          <div class="timeline-icon"></div>
-          <div class="timeline-content">
-            <span class="date">1996 - 2014</span>
-            <h4 class="title">Bujumbura</h4>
-            <div class="row">
-            <img class="col-lg-4" type="img/png" src="img/icons/buja.png"/>
-            <p class="col-lg-8 description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eleifend ex. Praesent magna justo, bibendum id ante ut, vulputate tincidunt ipsum. Curabitur at rhoncus sem, eu feugiat sapien. Duis in libero cursus, dapibus sem ac, ornare mauris.
-              Cras nunc lectus, porta quis metus vestibulum, pellentesque gravida erat.
-            </p>
-          </div>
-          </div>
-        </div>
+	<!-- <section id="timeline">
+					<div class="col-md-12">
+						<div class="main-timeline">
+							<div class="timeline">
+								<div class="timeline-icon"></div>
+								<div class="timeline-content">
+									<span class="date">1996 - 2014</span>
+									<h4 class="title">Bujumbura</h4>
+									<div class="row">
+										<img class="col-lg-4" type="img/png" src="img/icons/buja.png"/>
+										<p class="col-lg-8 description">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eleifend ex. Praesent magna justo, bibendum id ante ut, vulputate tincidunt ipsum. Curabitur at rhoncus sem, eu feugiat sapien. Duis in libero cursus, dapibus sem ac, ornare mauris.
+											Cras nunc lectus, porta quis metus vestibulum, pellentesque gravida erat.
+										</p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="timeline">
+								<div class="timeline-icon"></div>
+								<div class="timeline-content right">
+									<span class="date">March 12, 2016</span>
+									<h4 class="title">Web Development</h4>
+									<p class="description">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eleifend ex. Praesent magna justo, bibendum id ante ut, vulputate tincidunt ipsum. Curabitur at rhoncus sem, eu feugiat sapien. Duis in libero cursus, dapibus sem ac, ornare mauris.
+										Cras nunc lectus, porta quis metus vestibulum, pellentesque gravida erat.
+									</p>
+								</div>
+							</div>
+							
+							<div class="timeline">
+								<div class="timeline-icon"></div>
+								<div class="timeline-content">
+									<span class="date">March 14, 2016</span>
+									<h4 class="title">Brand Building</h4>
+									<p class="description">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eleifend ex. Praesent magna justo, bibendum id ante ut, vulputate tincidunt ipsum. Curabitur at rhoncus sem, eu feugiat sapien. Duis in libero cursus, dapibus sem ac, ornare mauris.
+										Cras nunc lectus, porta quis metus vestibulum, pellentesque gravida erat.
+									</p>
+								</div>
+							</div>
+							
+							<div class="timeline">
+								<div class="timeline-icon"></div>
+								<div class="timeline-content right">
+									<span class="date">March 16, 2016</span>
+									<h4 class="title">Responsive Design</h4>
+									<p class="description">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eleifend ex. Praesent magna justo, bibendum id ante ut, vulputate tincidunt ipsum. Curabitur at rhoncus sem, eu feugiat sapien. Duis in libero cursus, dapibus sem ac, ornare mauris.
+										Cras nunc lectus, porta quis metus vestibulum, pellentesque gravida erat.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section> -->
 
-        <div class="timeline">
-          <div class="timeline-icon"></div>
-          <div class="timeline-content right">
-            <span class="date">March 12, 2016</span>
-            <h4 class="title">Web Development</h4>
-            <p class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eleifend ex. Praesent magna justo, bibendum id ante ut, vulputate tincidunt ipsum. Curabitur at rhoncus sem, eu feugiat sapien. Duis in libero cursus, dapibus sem ac, ornare mauris.
-              Cras nunc lectus, porta quis metus vestibulum, pellentesque gravida erat.
-            </p>
-          </div>
-        </div>
-
-        <div class="timeline">
-          <div class="timeline-icon"></div>
-          <div class="timeline-content">
-            <span class="date">March 14, 2016</span>
-            <h4 class="title">Brand Building</h4>
-            <p class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eleifend ex. Praesent magna justo, bibendum id ante ut, vulputate tincidunt ipsum. Curabitur at rhoncus sem, eu feugiat sapien. Duis in libero cursus, dapibus sem ac, ornare mauris.
-              Cras nunc lectus, porta quis metus vestibulum, pellentesque gravida erat.
-            </p>
-          </div>
-        </div>
-
-        <div class="timeline">
-          <div class="timeline-icon"></div>
-          <div class="timeline-content right">
-            <span class="date">March 16, 2016</span>
-            <h4 class="title">Responsive Design</h4>
-            <p class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae eleifend ex. Praesent magna justo, bibendum id ante ut, vulputate tincidunt ipsum. Curabitur at rhoncus sem, eu feugiat sapien. Duis in libero cursus, dapibus sem ac, ornare mauris.
-              Cras nunc lectus, porta quis metus vestibulum, pellentesque gravida erat.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <% include partials/footer %>
-  <% include partials/scripts %>
+	<% include partials/footer %>
+	<% include partials/scripts %>
 
 
 </body>
