@@ -1,13 +1,18 @@
-#mainNav, a {
+@import url("https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap");
+
+#mainNav,
+a {
   -webkit-transition: all .2s;
   -moz-transition: all .2s
 }
 
-a, a:hover {
-  color: #fff
+a,
+a:hover {
+  color: #34299B
 }
 
-body, html {
+body,
+html {
   width: 100%;
   height: 100%
 }
@@ -38,15 +43,15 @@ a {
 }
 
 .bg-primary {
-  background-color: rgba(240, 206, 160,.3) !important
+  background-color: rgba(240, 206, 160, .3) !important
 }
 
 .bg-secondary {
-  background-color: rgba(240, 206, 160,.1) !important
+  background-color: rgba(240, 206, 160, .1) !important
 }
 
-.bg-tertiary  {
-  background-color: rgba(240, 206, 160,1) !important
+.bg-tertiary {
+  background-color: rgba(240, 206, 160, 1) !important
 }
 
 .bg-dark {
@@ -54,7 +59,7 @@ a {
 }
 
 .btn-light {
-  background-color: rgba(240, 206, 160,1) !important
+  background-color: rgba(240, 206, 160, 1) !important
 }
 
 .text-faded {
@@ -65,7 +70,7 @@ section {
   padding: 8rem 0
 }
 
-section#nav-portfolio{
+section#nav-portfolio {
   padding: 2rem 0
 }
 
@@ -111,27 +116,32 @@ strong {
   color: #f0cea0
 }
 
-#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
   color: #f0cea0
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+#mainNav .navbar-nav>li.nav-item>a.nav-link,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #212529
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
   color: #f0cea0
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
   color: #f0cea0 !important;
   background-color: transparent
 }
 
-#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
   background-color: transparent
 }
 
@@ -167,48 +177,69 @@ i {
     border-color: transparent;
     background-color: transparent
   }
+
   #mainNav .navbar-brand {
     color: rgb(0, 0, 0)
   }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+
+  #mainNav .navbar-brand:focus,
+  #mainNav .navbar-brand:hover {
     color: #fff
   }
+
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
     padding: .5rem 1rem
   }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
     color: rgb(0, 0, 0)
   }
-  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+  #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #fff
   }
+
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, .1);
     background-color: #fff
   }
-  #mainNav.navbar-shrink .navbar-brand, #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+
+  #mainNav.navbar-shrink .navbar-brand,
+  #mainNav.navbar-shrink .navbar-brand:focus,
+  #mainNav.navbar-shrink .navbar-brand:hover {
     color: #f0cea0
   }
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
+
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
     color: #212529
   }
-  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+  #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
     color: #f0cea0
   }
+
   strong {
     color: #fff;
   }
+
   #role-description {
     color: #f0cea0;
   }
+
   #role-fn {
     font-weight: bolder;
     color: #fff;
   }
+
   .btn-primary {
     background-color: #22181c;
     border-color: #22181c;
   }
+
   div.container.bio {
     padding-left: 0;
     padding-right: 0;
@@ -245,11 +276,13 @@ header.masthead p {
     flex: 0 0 66.666666%;
     max-width: 66.66666%
   }
+
   .col-lg-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%
   }
+
   header.masthead p {
     font-size: 2.5rem
   }
@@ -262,6 +295,7 @@ header.masthead p {
     padding-top: 0;
     padding-bottom: 0
   }
+
   header.masthead h1 {
     font-size: 3rem
   }
@@ -307,7 +341,8 @@ header.masthead p {
   text-align: center
 }
 
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
@@ -334,6 +369,7 @@ header.masthead p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px
   }
+
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px
   }
@@ -354,12 +390,15 @@ header.masthead p {
   padding: 1rem 2rem
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
   color: #fff;
   background-color: #22181c !important
 }
 
-.btn-primary:active, .btn-primary:focus {
+.btn-primary:active,
+.btn-primary:focus {
   box-shadow: 0 0 0 .2rem rgba(240, 95, 64, .5) !important
 }
 
@@ -390,7 +429,8 @@ header.masthead p {
   position: relative;
 }
 
-.main-timeline .timeline:before, .main-timeline .timeline:after {
+.main-timeline .timeline:before,
+.main-timeline .timeline:after {
   content: "";
   display: block;
   width: 100%;
@@ -455,10 +495,12 @@ header.masthead p {
   .main-timeline:before {
     left: 0;
   }
+
   .main-timeline .timeline-icon {
     left: -8px;
     margin: 0;
   }
+
   .main-timeline .timeline-content {
     width: 90%;
     float: right;
@@ -467,7 +509,7 @@ header.masthead p {
 
 /* Beginning of additional CSS created by Aury Bwashi */
 
-.card{
+.card {
   width: 80%;
   margin: 0 0 5% 10%;
 }
@@ -479,22 +521,23 @@ header.masthead p {
 .icon-left {
   display: inline-block;
   position: absolute;
-  height: 100%;
+  max-height: 100%;
   left: 55%;
 }
 
 .icon-right {
   display: block;
   position: absolute;
-  height: 100%;
+  max-height: 100%;
   right: 55%;
 }
 
-.timeline{
+.timeline {
   margin: 5% 0;
 }
 
 @media (max-width:767px) {
+
   .icon-left,
   .icon-right {
     display: none;
@@ -502,7 +545,44 @@ header.masthead p {
   }
 }
 
+/* #conceptcar{
+  background-size: cover;
+} */
+
+#conceptcar-row {
+  padding: 10% 0;
+}
+
+#conceptcar-heading {
+  font-family: "Bungee Shade", cursive;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  white-space: nowrap;
+  /* letter-spacing: -5%; */
+}
+
+#intro-paragraph {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+iframe {
+  margin: 5% 0;
+}
+
+.portfolio-h1 {
+  margin-top: 5%;
+}
+
+.tool-icons {
+  margin-top: 14px;
+}
+
+h5 {
+  font-weight: 900;
+}
+
 /* End of additional CSS created by Aury Bwashi */
 
-@charset "utf-8";
 /* CSS Document */
