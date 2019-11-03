@@ -64,7 +64,4 @@ typings/
 # not saving original picture to github
 public/img/original-header.jpg
 
-public/img/icons/buja.png
 *.DS_Store
-
-public/img/portfolio/*
