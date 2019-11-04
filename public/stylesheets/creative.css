@@ -543,6 +543,9 @@ header.masthead p {
     display: none;
     padding: 10%;
   }
+  .main-timeline .timeline-content.right{
+    left:0;
+  }
 }
 
 /* #conceptcar{
