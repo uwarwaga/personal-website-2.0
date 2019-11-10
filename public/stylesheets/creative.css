@@ -548,6 +548,16 @@ header.masthead p {
   }
 }
 
+@media only screen and (max-width:425px) {
+  .row-portfolio {
+    padding: 20% 5%;
+  }
+
+  #resume-text {
+    font-size: 20px;
+  }
+}
+
 /* #conceptcar{
   background-size: cover;
 } */
