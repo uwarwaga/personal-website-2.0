@@ -543,20 +543,13 @@ header.masthead p {
     display: none;
     padding: 10%;
   }
-  .main-timeline .timeline-content.right{
-    left:0;
+
+  .main-timeline .timeline-content.right {
+    left: 0;
   }
 }
 
-@media only screen and (max-width:425px) {
-  .row-portfolio {
-    padding: 20% 5%;
-  }
 
-  #resume-text {
-    font-size: 20px;
-  }
-}
 
 /* #conceptcar{
   background-size: cover;
@@ -571,7 +564,6 @@ header.masthead p {
   writing-mode: vertical-lr;
   text-orientation: upright;
   white-space: nowrap;
-  /* letter-spacing: -5%; */
 }
 
 #intro-paragraph {
@@ -594,6 +586,31 @@ iframe {
 
 h5 {
   font-weight: 900;
+}
+
+@media (max-width:425px) {
+  .row-portfolio {
+    padding-top: 20%;
+  }
+
+  #resume-text {
+    font-size: 20px;
+  }
+
+  #conceptcar-row {
+    padding-top: 20%;
+  }
+  #conceptcar-heading {
+    font-family: "Bungee Shade", cursive;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    white-space: nowrap;
+  }
+
+  .third-col-project {
+    padding: 0 15px;
+  }
+
 }
 
 /* End of additional CSS created by Aury Bwashi */
