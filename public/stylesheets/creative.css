@@ -486,7 +486,7 @@ header.masthead p {
 }
 
 .main-timeline .timeline-content.right {
-  position: relative;
+  position: sticky;
   left: 55%;
   text-align: left;
 }
@@ -520,15 +520,15 @@ header.masthead p {
 
 .icon-left {
   display: inline-block;
-  position: absolute;
-  max-height: 100%;
+  position: sticky;
+  max-width: 250px;
   left: 55%;
 }
 
 .icon-right {
   display: block;
-  position: absolute;
-  max-height: 100%;
+  position: sticky;
+  max-width: 250px;
   right: 55%;
 }
 
