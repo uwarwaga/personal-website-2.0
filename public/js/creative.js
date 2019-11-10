@@ -1,8 +1,8 @@
-(function($) {
+(function ($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -16,7 +16,7 @@
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
+  $('.js-scroll-trigger').click(function () {
     $('.navbar-collapse').collapse('hide');
   });
 
@@ -27,7 +27,7 @@
   });
 
   // Collapse Navbar
-  var navbarCollapse = function() {
+  var navbarCollapse = function () {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
     } else {
@@ -40,7 +40,7 @@
   $(window).scroll(navbarCollapse);
 
   //Change text every second
-  var changeText = function() {
+  var changeText = function () {
     var words = ["Developer", "Designer", "Techie"];
     var counter = 0;
     var elem = $("#role-fn");
@@ -92,9 +92,19 @@
   });
 
   $('.card').hover(
-    function(){ $(this).addClass('shadow-lg') },
-    function(){ $(this).removeClass('shadow-lg') }
-  )
+    function () {
+      $(this).addClass('shadow-lg')
+    },
+    function () {
+      $(this).removeClass('shadow-lg')
+    }
+  );
+
+  // remove col and col-lg-2 when screen size < 425 px
+  $(window).resize(function () {
+    var screen = $(window);
+
+    $('.third-col-project').toggleClass('col col-lg-2', screen.width() > 425);
+  });
 
 })(jQuery); // End of use strict
-
