@@ -24,7 +24,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #f0cea0;
+  border-color: #ffffff;
 }
 
 hr.light {
@@ -43,15 +43,15 @@ a {
 }
 
 .bg-primary {
-  background-color: rgba(240, 206, 160, .3) !important
+  background-color: rgba(76, 73, 97, .3) !important
 }
 
 .bg-secondary {
-  background-color: rgba(240, 206, 160, .1) !important
+  background-color: rgba(76, 73, 97, .1) !important
 }
 
 .bg-tertiary {
-  background-color: rgba(240, 206, 160, 1) !important
+  background-color: rgba(76, 73, 97, 1) !important
 }
 
 .bg-dark {
@@ -59,7 +59,7 @@ a {
 }
 
 .btn-light {
-  background-color: rgba(240, 206, 160, 1) !important
+  background-color: rgba(255, 255, 255, .8) !important
 }
 
 .text-faded {
@@ -101,11 +101,11 @@ img::-moz-selection {
 }
 
 strong {
-  color: #f0cea0;
+  color: #ffffff;
 }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, .1);
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
   background-color: #fff;
   transition: all .2s
 }
@@ -113,12 +113,12 @@ strong {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #f0cea0
+  color: #4c4961
 }
 
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #f0cea0
+  color: #4c4961
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link,
@@ -131,12 +131,12 @@ strong {
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
 #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
-  color: #f0cea0
+  color: #4c4961
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active,
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-  color: #f0cea0 !important;
+  color: #4c4961 !important;
   background-color: transparent
 }
 
@@ -150,16 +150,16 @@ strong {
 }
 
 #role-description {
-  color: #fff;
+  color: #000000;
 }
 
 #role-fn {
   font-weight: bolder;
-  color: #f0cea0;
+  color: #ffffff;
 }
 
 #email {
-  color: #f0cea0;
+  color: #4c4961;
 }
 
 #resume-text,
@@ -168,8 +168,12 @@ i {
 }
 
 .btn-primary {
-  background-color: #f0cea0;
-  border-color: #f0cea0
+  background-color: #4c4961;
+  border-color: #4c4961
+}
+
+#timeline {
+  padding: 128px 6%;
 }
 
 @media (min-width:992px) {
@@ -202,14 +206,14 @@ i {
   }
 
   #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, .1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
     background-color: #fff
   }
 
   #mainNav.navbar-shrink .navbar-brand,
   #mainNav.navbar-shrink .navbar-brand:focus,
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f0cea0
+    color: #4c4961
   }
 
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,
@@ -219,7 +223,7 @@ i {
 
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
   #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
-    color: #f0cea0
+    color: #4c4961
   }
 
   strong {
@@ -227,7 +231,7 @@ i {
   }
 
   #role-description {
-    color: #f0cea0;
+    color: #4c4961;
   }
 
   #role-fn {
@@ -376,7 +380,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #f0cea0 !important
+  color: #4c4961 !important
 }
 
 .btn {
@@ -442,7 +446,7 @@ header.masthead p {
   height: 20px;
   border-radius: 50%;
   background: #fff;
-  border: 2px solid #f0cea0;
+  border: 2px solid #4c4961;
   position: absolute;
   top: 0;
   left: 3px;
@@ -453,7 +457,7 @@ header.masthead p {
 
 .main-timeline .timeline-content {
   width: 45%;
-  padding: 20px;
+  padding: 6%;
   border-radius: 5px;
   text-align: right;
   -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -468,20 +472,20 @@ header.masthead p {
   font-weight: 300;
   color: #fff;
   padding: 12px 33px;
-  background: #f0cea0;
+  background: #4c4961;
   border-radius: 30px;
 }
 
 .main-timeline .title {
   font-size: 24px;
   font-weight: 500;
-  color: #5c5151;
+  color: #000000;
   margin-top: 30px;
 }
 
 .main-timeline .description {
   font-size: 14px;
-  color: #606060;
+  color: #000000;
   line-height: 2;
 }
 
