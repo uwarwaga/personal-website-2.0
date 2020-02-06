@@ -176,6 +176,10 @@ i {
   padding: 128px 6%;
 }
 
+.newbie-image {
+  margin-top: 5%;
+}
+
 @media (min-width:992px) {
   #mainNav {
     border-color: transparent;
